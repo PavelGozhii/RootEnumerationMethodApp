@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class RootEnumerationMethodApp {
 
     private static int k;
-
     private static double x, a, b, u, v, h;
     private static String w = "";
 
@@ -51,7 +50,7 @@ public class RootEnumerationMethodApp {
         x = x + h;
         second();
     }
-//код
+// код не кот
     private static double f(double x) {
         return Math.pow(x, 3) - (5 * Math.pow(x, 2)) + (2 * x) + 6;
     }
