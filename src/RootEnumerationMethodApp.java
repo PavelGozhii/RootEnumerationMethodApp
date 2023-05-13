@@ -51,7 +51,7 @@ public class RootEnumerationMethodApp {
         x = x + h;
         second();
     }
-
+//код
     private static double f(double x) {
         return Math.pow(x, 3) - (5 * Math.pow(x, 2)) + (2 * x) + 6;
     }
