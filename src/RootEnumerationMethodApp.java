@@ -9,7 +9,6 @@ public class RootEnumerationMethodApp {
     public static void main(String[] args) {
         third();
     }
-
     public static void first() {
         u = v;
         x = x + h;
@@ -25,7 +24,7 @@ public class RootEnumerationMethodApp {
             third();
         }
         v = f(x);
-        if (sng(u) == sng(v)) {
+        if (sng(u) != sng(v)) {
             first();
         } else {
             k = 1;
@@ -36,7 +35,6 @@ public class RootEnumerationMethodApp {
             first();
         }
     }
-
     public static void third() {
         Scanner in = new Scanner(System.in);
         System.out.println("a = ");
