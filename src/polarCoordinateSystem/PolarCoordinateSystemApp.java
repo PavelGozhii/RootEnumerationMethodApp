@@ -24,12 +24,12 @@ public class PolarCoordinateSystemApp {
         System.out.println(r01[1]);
         System.out.println(r02[1]);
         double s = Math.abs(r01[0] * r02[0] * Math.sin(r01[1] - r02[1])) / 2;
-        System.out.println("Площа трикутнику S дорівняє " + s);
+        System.out.println("Площа трикутнику S дорівняє " + Math.round(s));
     }
 
     private static double[] polar(double x, double y) {
         double ro = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
-        Double fi;
+        double fi;
         if (x == 0) {
             double znak;
             if (y > 0) {
